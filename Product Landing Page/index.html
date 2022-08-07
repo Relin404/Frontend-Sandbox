@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="project1.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="pollos.png"
+        width="400"
+        sizes="auto"
+        alt="Los Pollos Hermanos"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" id="#who" href="#who">Who we are</a>
+            <a class="nav-link" href="#menu">Menu</a>
+            <a class="nav-link" href="#specials">Specials</a>
+            <a class="nav-link" href="#order">Order Now</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="form">
+      <h2 id="form">Subscribe to get free vouchers!</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          placeholder="Enter your email address"
+          name="email"
+          id="email"
+          required
+        />
+        <input class="button" type="submit" id="submit" value="Subscribe" />
+      </form>
+    </section>
+    <main>
+      <hr />
+      <section id="who">
+        <h2 id="video">Who we are</h2>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/XgYIRpnu8lo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="menu">
+        <div class="menu">
+          <div class="icon"></div>
+          <div>
+            <h2>Menu</h2>
+            <h3>ABQ Hot Chicken Sandwich</h3>
+            <p>
+              a good fried chicken sandwich smothered in spicy seasoning and
+              topped off with a buttery brioche bun.
+            </p>
+            <h3>Pollos Tenders</h3>
+            <p>
+              Crispy tenders fried to perfection, sure to satisfy anyone's
+              appetite.
+            </p>
+            <h3>Fring Fring Fries</h3>
+            <p>Yummy seasoned curly fries with a crunch in every bite.</p>
+            <h3>Slaw Goodman</h3>
+            <p>
+              Our tangy flavorful slaw, good on its own but even better paired
+              with an ABQ Chicken Sandwich.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="specials">
+        <div class="specials">
+          <div>
+            <h2>Combo Specials</h2>
+            <h3>The Heisenberg</h3>
+            <p>ABQ Hot Chicken Sandwich, Fring Fries, & Slaw Goodman</p>
+            <h3>The Pinkman</h3>
+            <p>Pollos Tenders, Fring Fries, & Slaw Goodman</p>
+            <h3>The Superlab</h3>
+            <p>
+              ABQ Hot Chicken Sandwich, Pollos Tenders, Fring Fries, & Slaw
+              Goodman
+            </p>
+            <h3>The Full Measure</h3>
+            <p>
+              4 ABQ Hot Chicken Sandwich, 4 Pollos Tenders, 4 Fring Fries, & 4
+              Slaw Goodman
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p id="order">Copyright 2022, Los Pollos Hermanos</p>
+    </footer>
+  </body>
+</html>
