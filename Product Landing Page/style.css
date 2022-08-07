@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&family=ZCOOL+KuaiLe&family=ZCOOL+XiaoWei&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fccc00;
+  font-family: "Urbanist";
+}
+
+#header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(240, 190, 11);
+  background-image: url("cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#header-img {
+  margin: 0 auto;
+  border: #fccc00 1px solid;
+}
+
+.nav-link {
+  color: #fccc00;
+  font-size: large;
+}
+
+.nav-link:hover {
+  color: #fccc00;
+  background-color: rgb(238, 85, 14);
+  text-decoration: none;
+}
+
+#who {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#video {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  /* width: 10%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+#email {
+}
+
+#submit {
+}
+
+header ul li {
+  display: inline-block;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+  text-decoration: double;
+  padding: 0px 5vw;
+}
+
+.main {
+}
+
+.us div p {
+  display: flex;
+  padding: auto;
+}
+
+.menu {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#menu {
+  width: 100%;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+
+.specials {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.menu .icon:before {
+  content: "\1F32F";
+}
+
+footer {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  header ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 0px;
+    text-align: center;
+    margin-right: 80px;
+  }
+  header {
+    display: block;
+  }
+  .logo {
+    margin: 0px auto;
+  }
+  .icon {
+    visibility: ;
+  }
+}
